@@ -1,0 +1,1931 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>wcdash documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">wcdash documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>TransactioncountComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/transactioncount/transactioncount.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-transactioncount</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>transactioncount.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./transactioncount.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#chartCountData">chartCountData</a>
+                            </li>
+                            <li>
+                                <a href="#chartCountDataSubstring">chartCountDataSubstring</a>
+                            </li>
+                            <li>
+                                <a href="#chartCountLabels">chartCountLabels</a>
+                            </li>
+                            <li>
+                                <a href="#chartCountLabelSubstring">chartCountLabelSubstring</a>
+                            </li>
+                            <li>
+                                <a href="#completeTransCountArray">completeTransCountArray</a>
+                            </li>
+                            <li>
+                                <a href="#endDate">endDate</a>
+                            </li>
+                            <li>
+                                <a href="#exceptionTransCountArray">exceptionTransCountArray</a>
+                            </li>
+                            <li>
+                                <a href="#isLoading">isLoading</a>
+                            </li>
+                            <li>
+                                <a href="#myDateRangePickerOptions">myDateRangePickerOptions</a>
+                            </li>
+                            <li>
+                                <a href="#myForm">myForm</a>
+                            </li>
+                            <li>
+                                <a href="#myTransCountChart">myTransCountChart</a>
+                            </li>
+                            <li>
+                                <a href="#newEndDate">newEndDate</a>
+                            </li>
+                            <li>
+                                <a href="#newStartDate">newStartDate</a>
+                            </li>
+                            <li>
+                                <a href="#rangeEndDate">rangeEndDate</a>
+                            </li>
+                            <li>
+                                <a href="#rangeStartDate">rangeStartDate</a>
+                            </li>
+                            <li>
+                                <a href="#selectedCompleteTrans">selectedCompleteTrans</a>
+                            </li>
+                            <li>
+                                <a href="#serviceDown">serviceDown</a>
+                            </li>
+                            <li>
+                                <a href="#startDate">startDate</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#log">log</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit">ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onDateRangeChanged">onDateRangeChanged</a>
+                            </li>
+                            <li>
+                                <a href="#onSelect">onSelect</a>
+                            </li>
+                            <li>
+                                <a href="#requestDataFromMultipleSources">requestDataFromMultipleSources</a>
+                            </li>
+                            <li>
+                                <a href="#setCountData">setCountData</a>
+                            </li>
+                            <li>
+                                <a href="#setCountLabels">setCountLabels</a>
+                            </li>
+                            <li>
+                                <a href="#setUpCountChart">setUpCountChart</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#dateRange">dateRange</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(completeService: <a href="../injectables/CompleteTransService.html">CompleteTransService</a>, exceptionService: <a href="../injectables/ExceptionTransService.html">ExceptionTransService</a>, message: <a href="../injectables/MessageService.html">MessageService</a>, formBuilder: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="81" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:81</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>completeService</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/CompleteTransService.html" target="_self" >CompleteTransService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>exceptionService</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/ExceptionTransService.html" target="_self" >ExceptionTransService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>message</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/MessageService.html" target="_self" >MessageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>formBuilder</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="dateRange"></a>
+                        <code>dateRange</code>
+                    </td>
+                    <td class="col-md-10">
+                            <p>
+                            <em>Type :</em>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                            </p>
+                        <p>
+                            <em>Default value : </em><code>{
+    beginDate: {
+      year: moment().format(&#x27;YYYY&#x27;),
+      month: moment().format(&#x27;M&#x27;),
+      day: moment()
+        .subtract(5, &#x27;days&#x27;)
+        .format(&#x27;DD&#x27;)
+    },
+    endDate: {
+      year: moment().format(&#x27;YYYY&#x27;),
+      month: moment().format(&#x27;M&#x27;),
+      day: moment()
+        .subtract(1, &#x27;days&#x27;)
+        .format(&#x27;DD&#x27;)
+    }
+  }</code>
+                        </p>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:66</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="log"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            log
+                            </b>
+                            <a href="#log"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                            <span class="modifier-icon icon ion-ios-reset"></span>
+                        <code>log(message: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="215" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:215</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>message</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngAfterViewInit"></a>
+                        <span class="name">
+                            <b>
+                            ngAfterViewInit
+                            </b>
+                            <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="102" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:102</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngOnInit"></a>
+                        <span class="name">
+                            <b>
+                            ngOnInit
+                            </b>
+                            <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngOnInit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="90" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:90</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onDateRangeChanged"></a>
+                        <span class="name">
+                            <b>
+                            onDateRangeChanged
+                            </b>
+                            <a href="#onDateRangeChanged"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>onDateRangeChanged(event: IMyDateRangeModel)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="199" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:199</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>event</td>
+                                                        <td>
+                                                                    <code>IMyDateRangeModel</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onSelect"></a>
+                        <span class="name">
+                            <b>
+                            onSelect
+                            </b>
+                            <a href="#onSelect"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>onSelect(completeTrans: <a href="../classes/CompleteTrans.html">CompleteTrans</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="211" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:211</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>completeTrans</td>
+                                                        <td>
+                                                                    <code><a href="../classes/CompleteTrans.html" target="_self" >CompleteTrans</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="requestDataFromMultipleSources"></a>
+                        <span class="name">
+                            <b>
+                            requestDataFromMultipleSources
+                            </b>
+                            <a href="#requestDataFromMultipleSources"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>requestDataFromMultipleSources(rangeStartDate: , rangeEndDate: )</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="107" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:107</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>rangeStartDate</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>rangeEndDate</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setCountData"></a>
+                        <span class="name">
+                            <b>
+                            setCountData
+                            </b>
+                            <a href="#setCountData"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setCountData(item: , index: )</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="138" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:138</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>item</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>index</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code>{}</code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setCountLabels"></a>
+                        <span class="name">
+                            <b>
+                            setCountLabels
+                            </b>
+                            <a href="#setCountLabels"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setCountLabels(item: , index: )</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="133" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:133</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>item</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>index</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code>{}</code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setUpCountChart"></a>
+                        <span class="name">
+                            <b>
+                            setUpCountChart
+                            </b>
+                            <a href="#setUpCountChart"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setUpCountChart()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="143" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:143</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCountData"></a>
+                        <span class="name">
+                            <b>
+                            chartCountData
+                            </b>
+                            <a href="#chartCountData"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCountData:     <code>Array&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    {
+      data: this.chartCountDataSubstring,
+      label: &#x27;Transaction Count&#x27;
+    }
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCountDataSubstring"></a>
+                        <span class="name">
+                            <b>
+                            chartCountDataSubstring
+                            </b>
+                            <a href="#chartCountDataSubstring"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCountDataSubstring:     <code></code>
+</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCountLabels"></a>
+                        <span class="name">
+                            <b>
+                            chartCountLabels
+                            </b>
+                            <a href="#chartCountLabels"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCountLabels:     <code>Array&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[this.chartCountLabelSubstring]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:43</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCountLabelSubstring"></a>
+                        <span class="name">
+                            <b>
+                            chartCountLabelSubstring
+                            </b>
+                            <a href="#chartCountLabelSubstring"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCountLabelSubstring:     <code>Array&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="completeTransCountArray"></a>
+                        <span class="name">
+                            <b>
+                            completeTransCountArray
+                            </b>
+                            <a href="#completeTransCountArray"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>completeTransCountArray:     <code><a href="../classes/CompleteTrans.html" target="_self" >CompleteTrans[]</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/CompleteTrans.html" target="_self" >CompleteTrans[]</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="endDate"></a>
+                        <span class="name">
+                            <b>
+                            endDate
+                            </b>
+                            <a href="#endDate"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>endDate:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>moment().subtract(1, &#x27;days&#x27;).format(&#x27;YYYY-MM-DD&#x27;)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:47</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="exceptionTransCountArray"></a>
+                        <span class="name">
+                            <b>
+                            exceptionTransCountArray
+                            </b>
+                            <a href="#exceptionTransCountArray"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>exceptionTransCountArray:     <code><a href="../classes/ExceptionTrans.html" target="_self" >ExceptionTrans[]</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/ExceptionTrans.html" target="_self" >ExceptionTrans[]</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isLoading"></a>
+                        <span class="name">
+                            <b>
+                            isLoading
+                            </b>
+                            <a href="#isLoading"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>isLoading:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:44</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="myDateRangePickerOptions"></a>
+                        <span class="name">
+                            <b>
+                            myDateRangePickerOptions
+                            </b>
+                            <a href="#myDateRangePickerOptions"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>myDateRangePickerOptions:     <code>IMyDrpOptions</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>IMyDrpOptions</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    showSelectDateText: true,
+    dateFormat: &#x27;mm/dd/yyyy&#x27;,
+    disableSince: {
+      year: Number(moment().format(&#x27;YYYY&#x27;)),
+      month: Number(moment().format(&#x27;M&#x27;)),
+      day: Number(moment().format(&#x27;DD&#x27;))
+    }
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:48</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="myForm"></a>
+                        <span class="name">
+                            <b>
+                            myForm
+                            </b>
+                            <a href="#myForm"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>myForm:     <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:57</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="myTransCountChart"></a>
+                        <span class="name">
+                            <b>
+                            myTransCountChart
+                            </b>
+                            <a href="#myTransCountChart"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>myTransCountChart:     <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Decorators : </i><code>ViewChild</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="newEndDate"></a>
+                        <span class="name">
+                            <b>
+                            newEndDate
+                            </b>
+                            <a href="#newEndDate"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>newEndDate:     <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="newStartDate"></a>
+                        <span class="name">
+                            <b>
+                            newStartDate
+                            </b>
+                            <a href="#newStartDate"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>newStartDate:     <code></code>
+</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rangeEndDate"></a>
+                        <span class="name">
+                            <b>
+                            rangeEndDate
+                            </b>
+                            <a href="#rangeEndDate"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>rangeEndDate:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>moment()
+    .subtract(1, &#x27;days&#x27;)
+    .format(&#x27;YYYY-MM-DD&#x27;)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:62</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rangeStartDate"></a>
+                        <span class="name">
+                            <b>
+                            rangeStartDate
+                            </b>
+                            <a href="#rangeStartDate"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>rangeStartDate:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>moment()
+    .subtract(5, &#x27;days&#x27;)
+    .format(&#x27;YYYY-MM-DD&#x27;)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:59</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectedCompleteTrans"></a>
+                        <span class="name">
+                            <b>
+                            selectedCompleteTrans
+                            </b>
+                            <a href="#selectedCompleteTrans"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>selectedCompleteTrans:     <code><a href="../classes/CompleteTrans.html" target="_self" >CompleteTrans</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/CompleteTrans.html" target="_self" >CompleteTrans</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="serviceDown"></a>
+                        <span class="name">
+                            <b>
+                            serviceDown
+                            </b>
+                            <a href="#serviceDown"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>serviceDown:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:45</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="startDate"></a>
+                        <span class="name">
+                            <b>
+                            startDate
+                            </b>
+                            <a href="#startDate"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>startDate:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>moment().subtract(5, &#x27;days&#x27;).format(&#x27;YYYY-MM-DD&#x27;)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/transactioncount/transactioncount.component.ts:46</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Component,
+  OnInit,
+  ViewChild,
+  ElementRef,
+  AfterViewInit,
+  Input
+} from &#x27;@angular/core&#x27;;
+
+import { CompleteTrans } from &#x27;./completetrans.model&#x27;;
+import { CompleteTransService } from &#x27;./completetrans.service&#x27;;
+import { MessageService } from &#x27;../message.service&#x27;;
+import { Chart } from &#x27;chart.js&#x27;;
+import { ExceptionTrans } from &#x27;./exceptiontrans.model&#x27;;
+import { ExceptionTransService } from &#x27;./exceptiontrans.service&#x27;;
+import { Observable } from &#x27;rxjs/Observable&#x27;;
+import { IMyDrpOptions, IMyDateRangeModel } from &#x27;mydaterangepicker&#x27;;
+import { FormBuilder, FormGroup, Validators } from &#x27;@angular/forms&#x27;;
+import &#x27;rxjs/add/observable/forkJoin&#x27;;
+import * as moment from &#x27;moment&#x27;;
+
+@Component({
+  selector: &#x27;app-transactioncount&#x27;,
+  templateUrl: &#x27;./transactioncount.component.html&#x27;,
+  styleUrls: [&#x27;./transactioncount.component.css&#x27;]
+})
+export class TransactioncountComponent implements OnInit, AfterViewInit {
+  @ViewChild(&#x27;myTransCountChart&#x27;)
+  myTransCountChart: ElementRef;
+  selectedCompleteTrans: CompleteTrans;
+  completeTransCountArray: CompleteTrans[];
+  exceptionTransCountArray: ExceptionTrans[];
+  chartCountDataSubstring;
+  chartCountLabelSubstring: Array&lt;any&gt;;
+  newStartDate;
+  newEndDate: any;
+  chartCountData: Array&lt;any&gt; &#x3D; [
+    {
+      data: this.chartCountDataSubstring,
+      label: &#x27;Transaction Count&#x27;
+    }
+  ];
+  chartCountLabels: Array&lt;any&gt; &#x3D; [this.chartCountLabelSubstring];
+  isLoading &#x3D; true;
+  serviceDown &#x3D; false;
+  startDate &#x3D; moment().subtract(5, &#x27;days&#x27;).format(&#x27;YYYY-MM-DD&#x27;);
+  endDate &#x3D; moment().subtract(1, &#x27;days&#x27;).format(&#x27;YYYY-MM-DD&#x27;);
+  myDateRangePickerOptions: IMyDrpOptions &#x3D; {
+    showSelectDateText: true,
+    dateFormat: &#x27;mm/dd/yyyy&#x27;,
+    disableSince: {
+      year: Number(moment().format(&#x27;YYYY&#x27;)),
+      month: Number(moment().format(&#x27;M&#x27;)),
+      day: Number(moment().format(&#x27;DD&#x27;))
+    }
+  };
+  myForm: FormGroup;
+  // default view when starting is last five days
+  rangeStartDate &#x3D; moment()
+    .subtract(5, &#x27;days&#x27;)
+    .format(&#x27;YYYY-MM-DD&#x27;);
+  rangeEndDate &#x3D; moment()
+    .subtract(1, &#x27;days&#x27;)
+    .format(&#x27;YYYY-MM-DD&#x27;);
+  @Input()
+  dateRange: any &#x3D; {
+    beginDate: {
+      year: moment().format(&#x27;YYYY&#x27;),
+      month: moment().format(&#x27;M&#x27;),
+      day: moment()
+        .subtract(5, &#x27;days&#x27;)
+        .format(&#x27;DD&#x27;)
+    },
+    endDate: {
+      year: moment().format(&#x27;YYYY&#x27;),
+      month: moment().format(&#x27;M&#x27;),
+      day: moment()
+        .subtract(1, &#x27;days&#x27;)
+        .format(&#x27;DD&#x27;)
+    }
+  };
+
+  constructor(
+    private completeService: CompleteTransService,
+    private exceptionService: ExceptionTransService,
+    private message: MessageService,
+    private formBuilder: FormBuilder
+  ) {}
+
+  ngOnInit() {
+    this.myForm &#x3D; this.formBuilder.group({
+      // Empty string means no initial value. Can be also specific date range for example:
+      // {beginDate: {year: 2018, month: 10, day: 9}, endDate: {year: 2018, month: 10, day: 19}}
+      // which sets this date range to initial value. It is also possible to set initial
+      // value using the selDateRange attribute.
+
+      myDateRange: [this.dateRange, Validators.required]
+      // other controls are ...
+    });
+  }
+
+  ngAfterViewInit() {
+    this.requestDataFromMultipleSources(this.rangeStartDate, this.rangeEndDate);
+  }
+
+  // Rename this function?
+  requestDataFromMultipleSources(rangeStartDate, rangeEndDate): void {
+    const response1 &#x3D; this.exceptionService.getExceptionTransArray(
+      rangeStartDate,
+      rangeEndDate
+    );
+    const response2 &#x3D; this.completeService.getCompleteTransArray(
+      rangeStartDate,
+      rangeEndDate
+    );
+    Observable.forkJoin([response1, response2]).subscribe(
+      responseList &#x3D;&gt; {
+        this.exceptionTransCountArray &#x3D; responseList[0];
+        this.completeTransCountArray &#x3D; responseList[1];
+        this.setUpCountChart();
+      },
+      error &#x3D;&gt; {
+        this.serviceDown &#x3D; true;
+        this.isLoading &#x3D; false;
+        this.log(&#x27;Error from requestExceptionDataFromMultipleSources: &#x27; + error);
+      },
+      () &#x3D;&gt; {
+        this.isLoading &#x3D; false;
+      }
+    );
+  }
+
+  setCountLabels(item, index) {
+    const chartCountLabels &#x3D; [item.summaryDate];
+    return chartCountLabels;
+  }
+
+  setCountData(item, index) {
+    const chartCountData &#x3D; [item.numberOfTransactions];
+    return chartCountData;
+  }
+
+  setUpCountChart() {
+    this.myTransCountChart &#x3D; new Chart(
+      this.myTransCountChart.nativeElement.getContext(&#x27;2d&#x27;),
+      {
+        type: &#x27;bar&#x27;,
+        data: {
+          labels: this.completeTransCountArray.map(this.setCountLabels),
+          datasets: [
+            {
+              stack: &#x27;Stack 0&#x27;,
+              label: &#x27;Completed&#x27;,
+              backgroundColor: &#x27;rgba(51, 204, 51, .73)&#x27;,
+              borderColor: &#x27;rgba(51, 204, 51, 0.33)&#x27;,
+              data: this.completeTransCountArray.map(this.setCountData),
+              fill: false
+            },
+            {
+              stack: &#x27;Stack 0&#x27;,
+              label: &#x27;Exception&#x27;,
+              backgroundColor: &#x27;rgba(195, 59, 62, .73)&#x27;,
+              borderColor: &#x27;rgba(195, 59, 62, 0.33)&#x27;,
+              data: this.exceptionTransCountArray.map(this.setCountData),
+              fill: false
+            }
+          ]},
+          options: {
+            responsive: true,
+            tooltips: {
+              mode: &#x27;index&#x27;,
+              intersect: false
+            },
+            hover: {
+              mode: &#x27;nearest&#x27;,
+              intersect: true
+            },
+            scales: {
+              xAxes: [
+                {
+                  display: true
+                }
+              ],
+              yAxes: [
+                {
+                  scaleLabel: {
+                    display: true,
+                    labelString: &#x27;Number of Transactions&#x27;
+                  },
+                  display: true
+                }
+              ]
+            }
+          }
+      }
+    );
+  }
+
+  onDateRangeChanged(event: IMyDateRangeModel) {
+    this.log(this.dateRange.toString());
+    this.newStartDate &#x3D; moment(event.beginJsDate.toString()).format(
+      &#x27;YYYY-MM-DD&#x27;
+    );
+    this.newEndDate &#x3D; moment(event.endJsDate.toString()).format(&#x27;YYYY-MM-DD&#x27;);
+    this.requestDataFromMultipleSources(
+      this.newStartDate,
+      this.newEndDate
+    );
+  }
+
+  onSelect(completeTrans: CompleteTrans): void {
+    this.selectedCompleteTrans &#x3D; completeTrans;
+  }
+
+  private log(message: string) {
+    this.message.console(&#x27;Transaction Count Component: &#x27; + message);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;h2 style&#x3D;&quot;text-align: center&quot;&gt;Transaction Count&lt;/h2&gt;
+
+&lt;div *ngIf&#x3D;&quot;isLoading&quot;&gt;
+  &lt;div class&#x3D;&quot;sk-fading-circle&quot;&gt;
+    &lt;div class&#x3D;&quot;sk-circle1 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle2 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle3 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle4 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle5 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle6 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle7 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle8 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle9 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle10 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle11 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle12 sk-circle&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div [ngClass]&#x3D;&quot;isLoading ? &#x27;hide&#x27; : &#x27;show&#x27;&quot;&gt;
+  &lt;!-- Display error splash if service call fails--&gt;
+  &lt;div *ngIf&#x3D;&quot;serviceDown&quot; style&#x3D;&quot;text-align:center&quot;&gt;
+    &lt;img src&#x3D;&#x27;../../assets/sadLiberty.jpg&#x27;&gt;
+  &lt;/div&gt;
+
+  &lt;div *ngIf&#x3D;&quot;!serviceDown&quot; class&#x3D;&quot;chart-container&quot;&gt;
+    &lt;div style&#x3D;&quot;display:flex;justify-content:center;align-items:center;width:600px;&quot;&gt;
+      &lt;table&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;div style&#x3D;&quot;display:flex;align-items:center;font-size:20px;&quot;&gt;&lt;label for&#x3D;&quot;mydaterange&quot;&gt;Date Range: &lt;/label&gt;&lt;/div&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;form #myForm&#x3D;ngForm novalidate&gt;
+              &lt;my-date-range-picker name&#x3D;&quot;mydaterange&quot; [(ngModel)]&#x3D;&#x27;dateRange&#x27; [options]&#x3D;&quot;myDateRangePickerOptions&quot; (dateRangeChanged)&#x3D;&quot;onDateRangeChanged($event)&quot;&gt;&lt;/my-date-range-picker&gt;
+                  &lt;!-- other controls are here... --&gt;
+                &lt;/form&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;    &lt;canvas #myTransCountChart id&#x3D;&quot;myTransCountChart&quot; responsive&#x3D;&quot;true&quot; width&#x3D;&quot;600&quot; height&#x3D;&quot;400&quot;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><h2 style="text-align: center">Transaction Count</h2><div *ngIf="isLoading">  <div class="sk-fading-circle">    <div class="sk-circle1 sk-circle"></div>    <div class="sk-circle2 sk-circle"></div>    <div class="sk-circle3 sk-circle"></div>    <div class="sk-circle4 sk-circle"></div>    <div class="sk-circle5 sk-circle"></div>    <div class="sk-circle6 sk-circle"></div>    <div class="sk-circle7 sk-circle"></div>    <div class="sk-circle8 sk-circle"></div>    <div class="sk-circle9 sk-circle"></div>    <div class="sk-circle10 sk-circle"></div>    <div class="sk-circle11 sk-circle"></div>    <div class="sk-circle12 sk-circle"></div>  </div></div><div [ngClass]="isLoading ? \'hide\' : \'show\'">  <!-- Display error splash if service call fails-->  <div *ngIf="serviceDown" style="text-align:center">    <img src=\'../../assets/sadLiberty.jpg\'>  </div>  <div *ngIf="!serviceDown" class="chart-container">    <div style="display:flex;justify-content:center;align-items:center;width:600px;">      <table>        <tr>          <td>            <div style="display:flex;align-items:center;font-size:20px;"><label for="mydaterange">Date Range: </label></div>          </td>          <td>            <form #myForm=ngForm novalidate>              <my-date-range-picker name="mydaterange" [(ngModel)]=\'dateRange\' [options]="myDateRangePickerOptions" (dateRangeChanged)="onDateRangeChanged($event)"></my-date-range-picker>                  <!-- other controls are here... -->                </form>            </td>          </tr>        </table>      </div>    <canvas #myTransCountChart id="myTransCountChart" responsive="true" width="600" height="400"></canvas>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AverageHandlingTimeComponent', 'selector': 'app-aht'},{'name': 'CompexecbyhourComponent', 'selector': 'app-compexecbyhour'},{'name': 'CompexecpercentComponent', 'selector': 'app-compexecpercent'},{'name': 'CompvsexecComponent', 'selector': 'app-compvsexec'},{'name': 'DailyvolumeComponent', 'selector': 'app-dailyvolume'},{'name': 'HourlyComponent', 'selector': 'app-hourly'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'ToptencustComponent', 'selector': 'app-toptencust'},{'name': 'ToptenreasonComponent', 'selector': 'app-toptenreason'},{'name': 'TransactioncountComponent', 'selector': 'app-transactioncount'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'TransactioncountComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'TransactioncountComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <script src="../js/menu-wc.js"></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+applications:
+  - name: exprs-wc-dashboard-development
+    routes:
+      - route: exprs-wc-dashboard-development.us-east-1.np.paas.lmig.com
+    buildpack: staticfile_current
+    instances: 1
+    memory: 512M
+    framework: node
+    timeout: 170
+    env:
+      NODE_ENV: development
+      NEW_RELIC_APP_NAME: exprs-wc-dashboard
+      CF_IDENTITY_API_ENDPOINT: ${secret.cf-identity.api_endpoint}
+      CF_IDENTITY_PASSWORD: ${secret.cf-identity.password}
+      CF_IDENTITY_USERNAME: ${secret.cf-identity.username}
+    services:
+      - exprswcdashboard-development-keys
+      - newrelic
+      - everyday-curfew
+    blue-green:
+      health-check-endpoint: /health
+      # Use HTTP to check health rather than standard health check.
+      health-check-type: http
+      health-check-http-endpoint: /health

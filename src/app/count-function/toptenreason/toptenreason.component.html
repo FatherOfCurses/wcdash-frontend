@@ -1,0 +1,51 @@
+<h2 style="text-align: center">Top Ten Exception Reasons</h2>
+
+<div *ngIf="isLoading">
+  <div class="sk-fading-circle">
+    <div class="sk-circle1 sk-circle"></div>
+    <div class="sk-circle2 sk-circle"></div>
+    <div class="sk-circle3 sk-circle"></div>
+    <div class="sk-circle4 sk-circle"></div>
+    <div class="sk-circle5 sk-circle"></div>
+    <div class="sk-circle6 sk-circle"></div>
+    <div class="sk-circle7 sk-circle"></div>
+    <div class="sk-circle8 sk-circle"></div>
+    <div class="sk-circle9 sk-circle"></div>
+    <div class="sk-circle10 sk-circle"></div>
+    <div class="sk-circle11 sk-circle"></div>
+    <div class="sk-circle12 sk-circle"></div>
+  </div>
+</div>
+
+<div [ngClass]="isLoading ? 'hide' : 'show'">
+  <!-- Display error splash if service call fails-->
+  <div *ngIf="serviceDown" style="text-align:center">
+    <img src='../../assets/sadLiberty.jpg'>
+  </div>
+
+  <div *ngIf="!serviceDown" class="chart-container">
+    <div style="display:flex;justify-content:center;align-items:center;width:600px;">
+      <table>
+        <tr>
+          <td>
+            <div style="display:flex;align-items:center;font-size:20px;"><label for="mydaterange">Date Range: </label></div>
+          </td>
+          <td>
+            <form #myForm=ngForm novalidate>
+              <my-date-range-picker name="myTopTendaterange" [(ngModel)]='topTenDateRange' [options]="myDateRangePickerOptions"
+                (dateRangeChanged)="onDateRangeChanged($event)"></my-date-range-picker>
+              <!-- other controls are here... -->
+            </form>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <canvas #myTopTenReasonsChart id="myTopTenReasonsChart" responsive="true" width="600" height="350"></canvas>
+  </div>
+
+  <div>
+    <ag-grid-angular style="width: 600px; height: 340px;" class="ag-theme-balham" sizeColumnsToFit="true"
+      enableColResize="true" [rowData]="rowData" [columnDefs]="columnDefs">
+    </ag-grid-angular>
+  </div>
+</div>

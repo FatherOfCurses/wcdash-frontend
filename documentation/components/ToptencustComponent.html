@@ -1,0 +1,1107 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>wcdash documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">wcdash documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>ToptencustComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/toptencust/toptencust.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-toptencust</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>toptencust.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./toptencust.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#chartCustData">chartCustData</a>
+                            </li>
+                            <li>
+                                <a href="#chartCustDataSubstring">chartCustDataSubstring</a>
+                            </li>
+                            <li>
+                                <a href="#chartCustLabels">chartCustLabels</a>
+                            </li>
+                            <li>
+                                <a href="#chartCustLabelSubstring">chartCustLabelSubstring</a>
+                            </li>
+                            <li>
+                                <a href="#isLoading">isLoading</a>
+                            </li>
+                            <li>
+                                <a href="#myTopTenCustomerChart">myTopTenCustomerChart</a>
+                            </li>
+                            <li>
+                                <a href="#serviceDown">serviceDown</a>
+                            </li>
+                            <li>
+                                <a href="#topTenCustArray">topTenCustArray</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#buildChart">buildChart</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit">ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#setCountData">setCountData</a>
+                            </li>
+                            <li>
+                                <a href="#setCountLabels">setCountLabels</a>
+                            </li>
+                            <li>
+                                <a href="#setUpTopTenCustChart">setUpTopTenCustChart</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(topTenCustService: <a href="../injectables/ToptencustService.html">ToptencustService</a>, message: <a href="../injectables/MessageService.html">MessageService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/toptencust/toptencust.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>topTenCustService</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/ToptencustService.html" target="_self" >ToptencustService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>message</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/MessageService.html" target="_self" >MessageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="buildChart"></a>
+                        <span class="name">
+                            <b>
+                            buildChart
+                            </b>
+                            <a href="#buildChart"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>buildChart()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/toptencust/toptencust.component.ts:41</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngAfterViewInit"></a>
+                        <span class="name">
+                            <b>
+                            ngAfterViewInit
+                            </b>
+                            <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/toptencust/toptencust.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ngOnInit"></a>
+                        <span class="name">
+                            <b>
+                            ngOnInit
+                            </b>
+                            <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>ngOnInit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/toptencust/toptencust.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setCountData"></a>
+                        <span class="name">
+                            <b>
+                            setCountData
+                            </b>
+                            <a href="#setCountData"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setCountData(item: , index: )</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/toptencust/toptencust.component.ts:62</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>item</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>index</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code>{}</code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setCountLabels"></a>
+                        <span class="name">
+                            <b>
+                            setCountLabels
+                            </b>
+                            <a href="#setCountLabels"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setCountLabels(item: , index: )</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/toptencust/toptencust.component.ts:57</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>item</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                                <tr>
+                                                        <td>index</td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code>{}</code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setUpTopTenCustChart"></a>
+                        <span class="name">
+                            <b>
+                            setUpTopTenCustChart
+                            </b>
+                            <a href="#setUpTopTenCustChart"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setUpTopTenCustChart()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="67" class="link-to-prism">src/app/toptencust/toptencust.component.ts:67</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCustData"></a>
+                        <span class="name">
+                            <b>
+                            chartCustData
+                            </b>
+                            <a href="#chartCustData"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCustData:     <code>Array&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    {
+      data: this.chartCustDataSubstring,
+      label: &#x27;Exceptions by Customer&#x27;
+    }
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/toptencust/toptencust.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCustDataSubstring"></a>
+                        <span class="name">
+                            <b>
+                            chartCustDataSubstring
+                            </b>
+                            <a href="#chartCustDataSubstring"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCustDataSubstring:     <code>Array&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/toptencust/toptencust.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCustLabels"></a>
+                        <span class="name">
+                            <b>
+                            chartCustLabels
+                            </b>
+                            <a href="#chartCustLabels"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCustLabels:     <code>Array&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[this.chartCustLabelSubstring]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/toptencust/toptencust.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chartCustLabelSubstring"></a>
+                        <span class="name">
+                            <b>
+                            chartCustLabelSubstring
+                            </b>
+                            <a href="#chartCustLabelSubstring"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>chartCustLabelSubstring:     <code>Array&lt;any&gt;</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/toptencust/toptencust.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isLoading"></a>
+                        <span class="name">
+                            <b>
+                            isLoading
+                            </b>
+                            <a href="#isLoading"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>isLoading:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/toptencust/toptencust.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="myTopTenCustomerChart"></a>
+                        <span class="name">
+                            <b>
+                            myTopTenCustomerChart
+                            </b>
+                            <a href="#myTopTenCustomerChart"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>myTopTenCustomerChart:     <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Decorators : </i><code>ViewChild</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/toptencust/toptencust.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="serviceDown"></a>
+                        <span class="name">
+                            <b>
+                            serviceDown
+                            </b>
+                            <a href="#serviceDown"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>serviceDown:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/toptencust/toptencust.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="topTenCustArray"></a>
+                        <span class="name">
+                            <b>
+                            topTenCustArray
+                            </b>
+                            <a href="#topTenCustArray"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>topTenCustArray:     <code><a href="../classes/Customer.html" target="_self" >Customer[]</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/Customer.html" target="_self" >Customer[]</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/toptencust/toptencust.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, AfterViewInit, ElementRef, ViewChild } from &#x27;@angular/core&#x27;;
+
+import { Customer } from &#x27;./customer.model&#x27;;
+import { MessageService } from &#x27;../message.service&#x27;;
+import { Chart } from &#x27;chart.js&#x27;;
+import { ToptencustService } from &#x27;./toptencust.service&#x27;;
+
+@Component({
+  selector: &#x27;app-toptencust&#x27;,
+  templateUrl: &#x27;./toptencust.component.html&#x27;,
+  styleUrls: [&#x27;./toptencust.component.css&#x27;]
+})
+export class ToptencustComponent implements OnInit, AfterViewInit {
+  @ViewChild(&#x27;myTopTenCustomerChart&#x27;)
+  myTopTenCustomerChart: ElementRef;
+  topTenCustArray: Customer[];
+  chartCustDataSubstring: Array&lt;any&gt;;
+  chartCustLabelSubstring: Array&lt;any&gt;;
+  chartCustData: Array&lt;any&gt; &#x3D; [
+    {
+      data: this.chartCustDataSubstring,
+      label: &#x27;Exceptions by Customer&#x27;
+    }
+  ];
+  chartCustLabels: Array&lt;any&gt; &#x3D; [this.chartCustLabelSubstring];
+  isLoading &#x3D; true;
+  serviceDown &#x3D; false;
+
+  constructor(
+    private topTenCustService: ToptencustService,
+    private message: MessageService
+  ) { }
+
+  ngOnInit() {
+  }
+
+  ngAfterViewInit() {
+    this.buildChart();
+  }
+
+  buildChart(): void {
+    const response1 &#x3D; this.topTenCustService.getTopTenCustArray().subscribe(
+      topTenCustArray &#x3D;&gt; {
+        this.topTenCustArray &#x3D; topTenCustArray;
+        this.setUpTopTenCustChart();
+      },
+      error &#x3D;&gt; {
+        this.serviceDown &#x3D; true;
+        this.isLoading &#x3D; false;
+      },
+      () &#x3D;&gt; {
+        this.isLoading &#x3D; false;
+      }
+    );
+  }
+
+  setCountLabels(item, index) {
+    const chartTopTenLabels &#x3D; [item.customerName];
+    return chartTopTenLabels;
+  }
+
+  setCountData(item, index) {
+    const chartTopTenData &#x3D; [item.exceptionCount];
+    return chartTopTenData;
+  }
+
+  setUpTopTenCustChart() {
+    this.myTopTenCustomerChart &#x3D; new Chart(
+      this.myTopTenCustomerChart.nativeElement.getContext(&#x27;2d&#x27;),
+      {
+        type: &#x27;bar&#x27;,
+        data: {
+          labels: this.topTenCustArray.map(this.setCountLabels),
+        datasets: [
+          {
+            label: &#x27;Customer count&#x27;,
+            backgroundColor: &#x27;rgba(51, 204, 51, .73)&#x27;,
+            borderColor: &#x27;rgba(51, 204, 51, 0.33)&#x27;,
+            data: this.topTenCustArray.map(this.setCountData),
+            fill: false
+          }
+        ],
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: &#x27;Chart.js Line Chart&#x27;
+          },
+          tooltips: {
+            mode: &#x27;index&#x27;,
+            intersect: false
+          },
+          hover: {
+            mode: &#x27;nearest&#x27;,
+            intersect: true
+          },
+          scales: {
+            xAxes: [
+              {
+                display: true
+              }
+            ],
+            yAxes: [
+              {
+                display: true
+              }
+            ]
+          }
+        }
+      }
+    }
+  );
+}
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;h2 style&#x3D;&quot;text-align: center&quot;&gt;Top Ten Customers&lt;/h2&gt;
+
+&lt;div *ngIf&#x3D;&quot;isLoading&quot;&gt;
+  &lt;div class&#x3D;&quot;sk-fading-circle&quot;&gt;
+    &lt;div class&#x3D;&quot;sk-circle1 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle2 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle3 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle4 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle5 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle6 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle7 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle8 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle9 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle10 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle11 sk-circle&quot;&gt;&lt;/div&gt;
+    &lt;div class&#x3D;&quot;sk-circle12 sk-circle&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div [ngClass]&#x3D;&quot;isLoading ? &#x27;hide&#x27; : &#x27;show&#x27;&quot;&gt;
+  &lt;!-- Display error splash if service call fails--&gt;
+  &lt;div *ngIf&#x3D;&quot;serviceDown&quot; style&#x3D;&quot;text-align:center&quot;&gt;
+    &lt;img src&#x3D;&#x27;../../assets/sadLiberty.jpg&#x27;&gt;
+  &lt;/div&gt;
+
+  &lt;div *ngIf&#x3D;&quot;!serviceDown&quot; class&#x3D;&quot;chart-container&quot;&gt;
+    &lt;canvas #myTransCountChart id&#x3D;&quot;myTopTenChart&quot; responsive&#x3D;&quot;true&quot; width&#x3D;&quot;600&quot; height&#x3D;&quot;400&quot;&gt;&lt;/canvas&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><h2 style="text-align: center">Top Ten Customers</h2><div *ngIf="isLoading">  <div class="sk-fading-circle">    <div class="sk-circle1 sk-circle"></div>    <div class="sk-circle2 sk-circle"></div>    <div class="sk-circle3 sk-circle"></div>    <div class="sk-circle4 sk-circle"></div>    <div class="sk-circle5 sk-circle"></div>    <div class="sk-circle6 sk-circle"></div>    <div class="sk-circle7 sk-circle"></div>    <div class="sk-circle8 sk-circle"></div>    <div class="sk-circle9 sk-circle"></div>    <div class="sk-circle10 sk-circle"></div>    <div class="sk-circle11 sk-circle"></div>    <div class="sk-circle12 sk-circle"></div>  </div></div><div [ngClass]="isLoading ? \'hide\' : \'show\'">  <!-- Display error splash if service call fails-->  <div *ngIf="serviceDown" style="text-align:center">    <img src=\'../../assets/sadLiberty.jpg\'>  </div>  <div *ngIf="!serviceDown" class="chart-container">    <canvas #myTransCountChart id="myTopTenChart" responsive="true" width="600" height="400"></canvas>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AverageHandlingTimeComponent', 'selector': 'app-aht'},{'name': 'CompexecbyhourComponent', 'selector': 'app-compexecbyhour'},{'name': 'CompexecpercentComponent', 'selector': 'app-compexecpercent'},{'name': 'CompvsexecComponent', 'selector': 'app-compvsexec'},{'name': 'DailyvolumeComponent', 'selector': 'app-dailyvolume'},{'name': 'HourlyComponent', 'selector': 'app-hourly'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'ToptencustComponent', 'selector': 'app-toptencust'},{'name': 'ToptenreasonComponent', 'selector': 'app-toptenreason'},{'name': 'TransactioncountComponent', 'selector': 'app-transactioncount'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'ToptencustComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'ToptencustComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <script src="../js/menu-wc.js"></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
